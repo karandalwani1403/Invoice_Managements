@@ -12,7 +12,7 @@ describe('c-wire-c-p-r', () => {
     }
   });
     
-  it('renders the current page reference in <pre> tag', () => {
+  it('renders the current pages reference in <pre> tag', () => {
     const element = createElement('c-wire-c-p-r', {
       is: WireCPR
     });
