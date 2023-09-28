@@ -8,7 +8,7 @@ describe('c-unit-test', () => {
       document.body.removeChild(document.body.firstChild);
     }
   });
-    // Changes made by Karan
+    // Changes made by Karan Dalwani
   it('displays unit status with default unitNumber', () => {
     const element = createElement('c-unit-test', {
       is: UnitTest
